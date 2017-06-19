@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="#ccc">
+    <EditText
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/editText1"
+        android:background="@android:color/background_light"
+        android:hint="请输入输会员的手机号"
+        android:layout_margin="5dp" />
+    <Button
+        android:text="下一步"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1" />
+</LinearLayout>

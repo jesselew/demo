@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Member.API", "epos\Member.API.csproj", "{B3AD6C09-108B-4B98-9C8A-DA7DD106418F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{E9242AD4-5AE4-4BCA-8AFE-1B770A864346}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mobile Apps", "Mobile Apps", "{6D51AC7E-8458-4CCE-9305-A327B45913F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Targets", "Targets", "{FAF00D16-975F-4A0E-9834-CA1E39D4CD21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "epos.Droid", "epos.Droid\epos.Droid.csproj", "{82FDF2A3-FDE9-4406-84B2-87147350BD95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3AD6C09-108B-4B98-9C8A-DA7DD106418F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3AD6C09-108B-4B98-9C8A-DA7DD106418F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3AD6C09-108B-4B98-9C8A-DA7DD106418F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3AD6C09-108B-4B98-9C8A-DA7DD106418F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82FDF2A3-FDE9-4406-84B2-87147350BD95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82FDF2A3-FDE9-4406-84B2-87147350BD95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82FDF2A3-FDE9-4406-84B2-87147350BD95}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{82FDF2A3-FDE9-4406-84B2-87147350BD95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82FDF2A3-FDE9-4406-84B2-87147350BD95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82FDF2A3-FDE9-4406-84B2-87147350BD95}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3AD6C09-108B-4B98-9C8A-DA7DD106418F} = {E9242AD4-5AE4-4BCA-8AFE-1B770A864346}
+		{FAF00D16-975F-4A0E-9834-CA1E39D4CD21} = {6D51AC7E-8458-4CCE-9305-A327B45913F7}
+		{82FDF2A3-FDE9-4406-84B2-87147350BD95} = {FAF00D16-975F-4A0E-9834-CA1E39D4CD21}
+	EndGlobalSection
+EndGlobal

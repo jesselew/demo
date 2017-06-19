@@ -1,0 +1,2 @@
+android.app.Application
+epos.Droid.epos.Droid

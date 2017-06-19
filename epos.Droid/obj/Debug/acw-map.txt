@@ -1,0 +1,4 @@
+epos.Droid.MainActivity, epos.Droid;md50aa6b5fa4db93aa378f6eb94cbaaa3cb.MainActivity
+epos.Droid.MainActivity, epos.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50aa6b5fa4db93aa378f6eb94cbaaa3cb.MainActivity
+epos.Droid.MainActivity;md50aa6b5fa4db93aa378f6eb94cbaaa3cb.MainActivity
+epos.droid.MainActivity;md50aa6b5fa4db93aa378f6eb94cbaaa3cb.MainActivity

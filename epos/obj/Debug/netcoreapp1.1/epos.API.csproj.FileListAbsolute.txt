@@ -1,0 +1,9 @@
+d:\projects\epos\epos\epos\bin\Debug\netcoreapp1.1\epos.API.deps.json
+d:\projects\epos\epos\epos\bin\Debug\netcoreapp1.1\epos.API.runtimeconfig.json
+d:\projects\epos\epos\epos\bin\Debug\netcoreapp1.1\epos.API.runtimeconfig.dev.json
+d:\projects\epos\epos\epos\bin\Debug\netcoreapp1.1\epos.API.dll
+d:\projects\epos\epos\epos\bin\Debug\netcoreapp1.1\epos.API.pdb
+d:\projects\epos\epos\epos\obj\Debug\netcoreapp1.1\epos.API.csprojResolveAssemblyReference.cache
+d:\projects\epos\epos\epos\obj\Debug\netcoreapp1.1\epos.API.AssemblyInfo.cs
+d:\projects\epos\epos\epos\obj\Debug\netcoreapp1.1\epos.API.dll
+d:\projects\epos\epos\epos\obj\Debug\netcoreapp1.1\epos.API.pdb
