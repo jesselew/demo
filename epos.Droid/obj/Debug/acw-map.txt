@@ -1,4 +1,24 @@
+epos.Droid.MultiLineContentActivity, epos.Droid;md50aa6b5fa4db93aa378f6eb94cbaaa3cb.MultiLineContentActivity
+epos.Droid.MultiLineContentActivity, epos.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50aa6b5fa4db93aa378f6eb94cbaaa3cb.MultiLineContentActivity
+epos.Droid.MultiLineContentActivity;md50aa6b5fa4db93aa378f6eb94cbaaa3cb.MultiLineContentActivity
+epos.droid.MultiLineContentActivity;md50aa6b5fa4db93aa378f6eb94cbaaa3cb.MultiLineContentActivity
+epos.Droid.NewMemberInfoActivity, epos.Droid;md50aa6b5fa4db93aa378f6eb94cbaaa3cb.NewMemberInfoActivity
+epos.Droid.NewMemberInfoActivity, epos.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50aa6b5fa4db93aa378f6eb94cbaaa3cb.NewMemberInfoActivity
+epos.Droid.NewMemberInfoActivity;md50aa6b5fa4db93aa378f6eb94cbaaa3cb.NewMemberInfoActivity
+epos.droid.NewMemberInfoActivity;md50aa6b5fa4db93aa378f6eb94cbaaa3cb.NewMemberInfoActivity
 epos.Droid.MainActivity, epos.Droid;md50aa6b5fa4db93aa378f6eb94cbaaa3cb.MainActivity
 epos.Droid.MainActivity, epos.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50aa6b5fa4db93aa378f6eb94cbaaa3cb.MainActivity
 epos.Droid.MainActivity;md50aa6b5fa4db93aa378f6eb94cbaaa3cb.MainActivity
 epos.droid.MainActivity;md50aa6b5fa4db93aa378f6eb94cbaaa3cb.MainActivity
+epos.Droid.Fragments.AddMember_PhoneFragment, epos.Droid;md588d2a2d34ae270f7a2ec68c99a9b4bbe.AddMember_PhoneFragment
+epos.Droid.Fragments.AddMember_PhoneFragment, epos.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md588d2a2d34ae270f7a2ec68c99a9b4bbe.AddMember_PhoneFragment
+epos.Droid.Fragments.AddMember_PhoneFragment;md588d2a2d34ae270f7a2ec68c99a9b4bbe.AddMember_PhoneFragment
+epos.droid.fragments.AddMember_PhoneFragment;md588d2a2d34ae270f7a2ec68c99a9b4bbe.AddMember_PhoneFragment
+epos.Droid.Fragments.MyDatePickerFragment, epos.Droid;md588d2a2d34ae270f7a2ec68c99a9b4bbe.MyDatePickerFragment
+epos.Droid.Fragments.MyDatePickerFragment, epos.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md588d2a2d34ae270f7a2ec68c99a9b4bbe.MyDatePickerFragment
+epos.Droid.Fragments.MyDatePickerFragment;md588d2a2d34ae270f7a2ec68c99a9b4bbe.MyDatePickerFragment
+epos.droid.fragments.MyDatePickerFragment;md588d2a2d34ae270f7a2ec68c99a9b4bbe.MyDatePickerFragment
+epos.Droid.Adapters.MemberListAdapter, epos.Droid;md591b2f727d2c5e63c04f7d95a70c674d4.MemberListAdapter
+epos.Droid.Adapters.MemberListAdapter, epos.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md591b2f727d2c5e63c04f7d95a70c674d4.MemberListAdapter
+epos.Droid.Adapters.MemberListAdapter;md591b2f727d2c5e63c04f7d95a70c674d4.MemberListAdapter
+epos.droid.adapters.MemberListAdapter;md591b2f727d2c5e63c04f7d95a70c674d4.MemberListAdapter

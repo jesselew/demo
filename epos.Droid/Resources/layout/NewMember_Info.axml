@@ -68,6 +68,25 @@
         android:gravity="center_vertical"
         android:layout_below="@id/txtViewExtendInfo"
         android:clickable="true" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:layout_below="@id/txtViewExtendInfo">
+        <RadioButton
+            android:id="@+id/radio_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="男" />
+        <RadioButton
+            android:id="@+id/radio_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女" />
+    </RadioGroup>
     <TextView
         android:text="生日"
         android:layout_width="match_parent"
@@ -81,17 +100,14 @@
         android:layout_below="@id/txtViewSex"
         android:clickable="true" />
     <TextView
-        android:text="地区"
+        android:text="年/月/日"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:id="@+id/txtViewArea"
-        android:background="@android:color/background_light"
-        android:textColor="#363f45"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtViewBirthValue"
         android:padding="10dp"
-        android:gravity="center_vertical"
-        android:layout_marginTop="0.5dp"
-        android:layout_below="@id/txtViewBirth"
-        android:clickable="true" />
+        android:layout_alignBaseline="@id/txtViewBirth"
+        android:layout_alignEnd="@id/txtViewBirth"
+        android:gravity="right" />
     <TextView
         android:text="备注"
         android:layout_width="match_parent"
@@ -102,6 +118,6 @@
         android:layout_marginTop="10dp"
         android:padding="10dp"
         android:gravity="center_vertical"
-        android:layout_below="@id/txtViewArea"
+        android:layout_below="@id/txtViewBirth"
         android:clickable="true" />
 </RelativeLayout>

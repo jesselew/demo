@@ -45,7 +45,31 @@ namespace epos.Droid
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int ic_close_black_48dp = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int ic_dashboard = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int ic_discuss = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int ic_done = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int ic_event = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int ic_forum = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int ic_headset = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int ic_menu = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int Icon = 2130837512;
 			
 			static Drawable()
 			{
@@ -60,59 +84,77 @@ namespace epos.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050002
-			public const int btnAuthCode = 2131034114;
+			// aapt resource value: 0x7f060016
+			public const int NewMember_Phone_editPhone = 2131099670;
 			
-			// aapt resource value: 0x7f050003
-			public const int btnLogin = 2131034115;
+			// aapt resource value: 0x7f060006
+			public const int btnAddMember = 2131099654;
 			
-			// aapt resource value: 0x7f050011
-			public const int button1 = 2131034129;
+			// aapt resource value: 0x7f060002
+			public const int btnAuthCode = 2131099650;
 			
-			// aapt resource value: 0x7f050010
-			public const int editText1 = 2131034128;
+			// aapt resource value: 0x7f060003
+			public const int btnLogin = 2131099651;
 			
-			// aapt resource value: 0x7f050005
-			public const int editTxtMulti = 2131034117;
+			// aapt resource value: 0x7f060017
+			public const int btnNewMemberNext = 2131099671;
 			
-			// aapt resource value: 0x7f050004
-			public const int recyclerview = 2131034116;
+			// aapt resource value: 0x7f060009
+			public const int editTxtMulti = 2131099657;
 			
-			// aapt resource value: 0x7f050001
-			public const int txtAuthCode = 2131034113;
+			// aapt resource value: 0x7f060004
+			public const int main_tab_banner = 2131099652;
 			
-			// aapt resource value: 0x7f050000
-			public const int txtLoginPhone = 2131034112;
+			// aapt resource value: 0x7f060005
+			public const int memberListView = 2131099653;
 			
-			// aapt resource value: 0x7f05000e
-			public const int txtViewArea = 2131034126;
+			// aapt resource value: 0x7f060012
+			public const int radio_female = 2131099666;
 			
-			// aapt resource value: 0x7f05000d
-			public const int txtViewBirth = 2131034125;
+			// aapt resource value: 0x7f060011
+			public const int radio_male = 2131099665;
 			
-			// aapt resource value: 0x7f05000b
-			public const int txtViewExtendInfo = 2131034123;
+			// aapt resource value: 0x7f060001
+			public const int txtAuthCode = 2131099649;
 			
-			// aapt resource value: 0x7f050009
-			public const int txtViewName = 2131034121;
+			// aapt resource value: 0x7f060000
+			public const int txtLoginPhone = 2131099648;
 			
-			// aapt resource value: 0x7f05000a
-			public const int txtViewNameValue = 2131034122;
+			// aapt resource value: 0x7f060007
+			public const int txtName = 2131099655;
 			
-			// aapt resource value: 0x7f050007
-			public const int txtViewPhone = 2131034119;
+			// aapt resource value: 0x7f060008
+			public const int txtPhone = 2131099656;
 			
-			// aapt resource value: 0x7f050008
-			public const int txtViewPhoneVaue = 2131034120;
+			// aapt resource value: 0x7f060013
+			public const int txtViewBirth = 2131099667;
 			
-			// aapt resource value: 0x7f05000f
-			public const int txtViewRemark = 2131034127;
+			// aapt resource value: 0x7f060014
+			public const int txtViewBirthValue = 2131099668;
 			
-			// aapt resource value: 0x7f05000c
-			public const int txtViewSex = 2131034124;
+			// aapt resource value: 0x7f06000f
+			public const int txtViewExtendInfo = 2131099663;
 			
-			// aapt resource value: 0x7f050006
-			public const int txtViewTextCount = 2131034118;
+			// aapt resource value: 0x7f06000d
+			public const int txtViewName = 2131099661;
+			
+			// aapt resource value: 0x7f06000e
+			public const int txtViewNameValue = 2131099662;
+			
+			// aapt resource value: 0x7f06000b
+			public const int txtViewPhone = 2131099659;
+			
+			// aapt resource value: 0x7f06000c
+			public const int txtViewPhoneVaue = 2131099660;
+			
+			// aapt resource value: 0x7f060015
+			public const int txtViewRemark = 2131099669;
+			
+			// aapt resource value: 0x7f060010
+			public const int txtViewSex = 2131099664;
+			
+			// aapt resource value: 0x7f06000a
+			public const int txtViewTextCount = 2131099658;
 			
 			static Id()
 			{
@@ -140,13 +182,16 @@ namespace epos.Droid
 			public const int MemberList = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int MultiText = 2130903044;
+			public const int MemberListItem = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int NewMember_Info = 2130903045;
+			public const int MultiText = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int NewMember_Phone = 2130903046;
+			public const int NewMember_Info = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int NewMember_Phone = 2130903047;
 			
 			static Layout()
 			{
@@ -173,6 +218,22 @@ namespace epos.Droid
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int MyTheme = 2131034112;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}
