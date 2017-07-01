@@ -22,30 +22,33 @@ public final class R {
         public static final int icon=0x7f020008;
     }
     public static final class id {
-        public static final int NewMember_Phone_editPhone=0x7f060016;
-        public static final int btnAddMember=0x7f060006;
-        public static final int btnAuthCode=0x7f060002;
-        public static final int btnLogin=0x7f060003;
-        public static final int btnNewMemberNext=0x7f060017;
-        public static final int editTxtMulti=0x7f060009;
-        public static final int main_tab_banner=0x7f060004;
-        public static final int memberListView=0x7f060005;
-        public static final int radio_female=0x7f060012;
-        public static final int radio_male=0x7f060011;
-        public static final int txtAuthCode=0x7f060001;
-        public static final int txtLoginPhone=0x7f060000;
-        public static final int txtName=0x7f060007;
-        public static final int txtPhone=0x7f060008;
-        public static final int txtViewBirth=0x7f060013;
-        public static final int txtViewBirthValue=0x7f060014;
-        public static final int txtViewExtendInfo=0x7f06000f;
-        public static final int txtViewName=0x7f06000d;
-        public static final int txtViewNameValue=0x7f06000e;
-        public static final int txtViewPhone=0x7f06000b;
-        public static final int txtViewPhoneVaue=0x7f06000c;
-        public static final int txtViewRemark=0x7f060015;
-        public static final int txtViewSex=0x7f060010;
-        public static final int txtViewTextCount=0x7f06000a;
+        public static final int btnAddMember=0x7f070007;
+        public static final int btnAuthCode=0x7f070002;
+        public static final int btnLogin=0x7f070003;
+        public static final int btnNewMemberNext=0x7f070019;
+        public static final int editTextNewMemberPhone=0x7f070018;
+        public static final int editTxtMulti=0x7f07000b;
+        public static final int main_tab_banner=0x7f070004;
+        public static final int memberListView=0x7f070006;
+        public static final int menu_save=0x7f07001a;
+        public static final int multiTextToolbar=0x7f07000a;
+        public static final int newMemberListToolbar=0x7f070005;
+        public static final int radio_female=0x7f070014;
+        public static final int radio_male=0x7f070013;
+        public static final int txtAuthCode=0x7f070001;
+        public static final int txtLoginPhone=0x7f070000;
+        public static final int txtName=0x7f070008;
+        public static final int txtPhone=0x7f070009;
+        public static final int txtViewBirth=0x7f070015;
+        public static final int txtViewBirthValue=0x7f070016;
+        public static final int txtViewExtendInfo=0x7f070011;
+        public static final int txtViewName=0x7f07000f;
+        public static final int txtViewNameValue=0x7f070010;
+        public static final int txtViewPhone=0x7f07000d;
+        public static final int txtViewPhoneVaue=0x7f07000e;
+        public static final int txtViewRemark=0x7f070017;
+        public static final int txtViewSex=0x7f070012;
+        public static final int txtViewTextCount=0x7f07000c;
     }
     public static final class layout {
         public static final int login=0x7f030000;
@@ -56,6 +59,9 @@ public final class R {
         public static final int multitext=0x7f030005;
         public static final int newmember_info=0x7f030006;
         public static final int newmember_phone=0x7f030007;
+    }
+    public static final class menu {
+        public static final int savemenu=0x7f060000;
     }
     public static final class string {
         public static final int ApplicationName=0x7f040001;

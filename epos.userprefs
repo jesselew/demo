@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{82FDF2A3-FDE9-4406-84B2-87147350BD95}|Default">
+  <MonoDevelop.Ide.ItemProperties.Service.Member.API PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="epos.Droid/MainActivity.cs">
+    <Files>
+      <File FileName="epos.Droid/MainActivity.cs" Line="21" Column="19" />
+      <File FileName="epos.Droid/MultiLineContentActivity.cs" Line="42" Column="21" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Mobile_220Apps.Targets.epos.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.api24_nexus7_intel_atom86" AndroidDesignerPreferredTheme="MyTheme" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

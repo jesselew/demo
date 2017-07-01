@@ -13,13 +13,14 @@ using epos.Droid.ViewModels;
 
 namespace epos.Droid
 {
-    [Activity(Label = "epos.Droid", MainLauncher = false, Icon = "@drawable/icon")]
+    [Activity(Label = "epos.Droid", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
         ListView mListView;
         IDataService mDataService;
         MemberListAdapter mAdapter;
         Button btnAddMember;
+        Toolbar mListToolbar;
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -44,6 +45,9 @@ namespace epos.Droid
             btnAddMember = FindViewById<Button>(Resource.Id.btnAddMember);
             btnAddMember.Click += BtnAddMember_Click;
 
+            mListToolbar = FindViewById<Toolbar>(Resource.Id.newMemberListToolbar);
+            SetActionBar(mListToolbar);
+
 
         }
 
@@ -58,7 +62,20 @@ namespace epos.Droid
 
         private void NewMemberPhone_OnNewMemberPhoneCompleted(object sender, string e)
         {
-            Toast.MakeText(this, e, ToastLength.Long).Show();
+            var newMemberInfo = new Intent(this,typeof(NewMemberInfoActivity));
+            newMemberInfo.PutExtra("phone", e);
+            StartActivityForResult(newMemberInfo,1);
+        }
+
+        protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
+        {
+            base.OnActivityResult(requestCode, resultCode, data);
+
+            if(requestCode==1)
+            {
+                var content = data.GetStringExtra("content");
+                Toast.MakeText(this, content, ToastLength.Long);
+            }
         }
     }
 }

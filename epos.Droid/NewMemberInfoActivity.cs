@@ -13,7 +13,7 @@ using epos.Droid.Fragments;
 
 namespace epos.Droid
 {
-    [Activity(Label = "NewMemberInfoActivity",MainLauncher = true)]
+    [Activity(Label = "NewMemberInfoActivity", MainLauncher = false)]
     public class NewMemberInfoActivity : Activity
     {
         TextView txtViewBirth;
@@ -40,6 +40,9 @@ namespace epos.Droid
         {
             var remarkActivity = new Intent(this, typeof(MultiLineContentActivity));
             remarkActivity.PutExtra("maxLength", 200);
+            remarkActivity.PutExtra("title","备注");
+            remarkActivity.PutExtra("content", txtViewRemark.Text);
+
 
             StartActivityForResult(remarkActivity,1001);
         }

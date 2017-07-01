@@ -3,15 +3,13 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-              android:minWidth="400dp">
+    android:minWidth="400dp">
     <EditText
         android:inputType="phone"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:id="@+id/NewMember_Phone_editPhone"
-        android:background="@android:color/background_light"
-        android:hint="请输入输会员的手机号"
-        android:layout_margin="5dp" />
+        android:hint="输入办理会员的手机号码"
+        android:id="@+id/editTextNewMemberPhone" />
     <Button
         android:text="下一步"
         android:layout_width="match_parent"

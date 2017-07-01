@@ -5,12 +5,20 @@
     android:background="#ccc"
     android:minWidth="25px"
     android:minHeight="25px">
+    <Toolbar
+        android:id="@+id/multiTextToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="?android:attr/colorPrimary"
+        android:theme="@android:style/ThemeOverlay.Material.Dark.ActionBar" />
     <EditText
         android:inputType="textMultiLine"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:id="@+id/editTxtMulti"
         android:layout_margin="8dp"
+        android:layout_below="@id/multiTextToolbar"
         android:background="@android:color/background_light"
         android:textColor="@android:color/black" />
     <TextView
